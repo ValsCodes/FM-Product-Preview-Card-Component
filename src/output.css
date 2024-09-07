@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 /*
 ! tailwindcss v3.4.10 | MIT License | https://tailwindcss.com
 */
@@ -446,7 +450,7 @@ video {
   display: none;
 }
 
-*, ::before, ::after {
+*, ::before, ::after{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -500,7 +504,7 @@ video {
   --tw-contain-style:  ;
 }
 
-::backdrop {
+::backdrop{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -552,4 +556,439 @@ video {
   --tw-contain-layout:  ;
   --tw-contain-paint:  ;
   --tw-contain-style:  ;
+}
+
+.mx-10{
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+}
+
+.mx-7{
+  margin-left: 1.75rem;
+  margin-right: 1.75rem;
+}
+
+.my-7{
+  margin-top: 1.75rem;
+  margin-bottom: 1.75rem;
+}
+
+.mx-6{
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.mb-4{
+  margin-bottom: 1rem;
+}
+
+.mb-5{
+  margin-bottom: 1.25rem;
+}
+
+.mb-6{
+  margin-bottom: 1.5rem;
+}
+
+.mr-3{
+  margin-right: 0.75rem;
+}
+
+.mr-5{
+  margin-right: 1.25rem;
+}
+
+.flex{
+  display: flex;
+}
+
+.hidden{
+  display: none;
+}
+
+.min-h-full{
+  min-height: 100%;
+}
+
+.min-h-80{
+  min-height: 20rem;
+}
+
+.min-h-60{
+  min-height: 15rem;
+}
+
+.w-full{
+  width: 100%;
+}
+
+.w-\[600px\]{
+  width: 600px;
+}
+
+.w-\[800px\]{
+  width: 800px;
+}
+
+.min-w-\[600px\]{
+  min-width: 600px;
+}
+
+.max-w-\[800px\]{
+  max-width: 800px;
+}
+
+.max-w-\[600px\]{
+  max-width: 600px;
+}
+
+.flex-row{
+  flex-direction: row;
+}
+
+.items-center{
+  align-items: center;
+}
+
+.justify-center{
+  justify-content: center;
+}
+
+.text-ellipsis{
+  text-overflow: ellipsis;
+}
+
+.text-wrap{
+  text-wrap: wrap;
+}
+
+.text-nowrap{
+  text-wrap: nowrap;
+}
+
+.text-balance{
+  text-wrap: balance;
+}
+
+.rounded-xl{
+  border-radius: 0.75rem;
+}
+
+.rounded-t-lg{
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+.bg-white{
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.px-4{
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.py-4{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.py-6{
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.py-5{
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.pb-6{
+  padding-bottom: 1.5rem;
+}
+
+.text-left{
+  text-align: left;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.text-justify{
+  text-align: justify;
+}
+
+.text-start{
+  text-align: start;
+}
+
+.align-middle{
+  vertical-align: middle;
+}
+
+.text-4xl{
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.text-\[20px\]{
+  font-size: 20px;
+}
+
+.text-\[48px\]{
+  font-size: 48px;
+}
+
+.text-xl{
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-\[18px\]{
+  font-size: 18px;
+}
+
+.text-\[16px\]{
+  font-size: 16px;
+}
+
+.text-\[17px\]{
+  font-size: 17px;
+}
+
+.text-\[30px\]{
+  font-size: 30px;
+}
+
+.text-\[40px\]{
+  font-size: 40px;
+}
+
+.text-5xl{
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.text-\[42px\]{
+  font-size: 42px;
+}
+
+.font-bold{
+  font-weight: 700;
+}
+
+.uppercase{
+  text-transform: uppercase;
+}
+
+.leading-8{
+  line-height: 2rem;
+}
+
+.leading-\[44px\]{
+  line-height: 44px;
+}
+
+body {
+  background-color: #F2EAE2;
+}
+
+.text-header-1 {
+  color: var(--Aurometal-Saurus, #6C7289);
+  font-feature-settings: 'liga' off, 'clig' off;
+  /* Overline */
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 5px;
+}
+
+.text-header-2 {
+  color: var(--Gunmetal, #1C232B);
+  font-feature-settings: 'liga' off, 'clig' off;
+  /* Display */
+  font-style: normal;
+  font-weight: 700;
+  font-optical-sizing: auto;
+  font-family: "Fraunces", serif;
+  font-variation-settings:
+    "SOFT" 0,
+    "WONK" 0;
+}
+
+.main-text {
+  color: var(--Aurometal-Saurus, #6C7289);
+  font-feature-settings: 'liga' off, 'clig' off;
+  /* Body */
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  /* 164.286% */
+}
+
+.price-text {
+  color: var(--Deep-Aquamarine, #3D8168);
+  font-feature-settings: 'liga' off, 'clig' off;
+  /* Display */
+  font-style: normal;
+  font-weight: 700;
+  font-optical-sizing: auto;
+  font-family: "Fraunces", serif;
+  font-variation-settings:
+    "SOFT" 0,
+    "WONK" 0;
+  /* 100% */
+}
+
+.discount-price-text {
+  color: var(--Aurometal-Saurus, #6C7289);
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  text-decoration-line:line-through;
+}
+
+.add-to-cart-text {
+  color: var(--Pure-White, #FFF);
+  font-feature-settings: 'liga' off, 'clig' off;
+  /* Button Text */
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.cart-button {
+  background-color: #3D8168;
+}
+
+.cart-button:hover {
+  background-color: #1A4032;
+}
+
+@media (min-width: 768px){
+  .md\:mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .md\:my-4{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .md\:mb-10{
+    margin-bottom: 2.5rem;
+  }
+
+  .md\:mb-2{
+    margin-bottom: 0.5rem;
+  }
+
+  .md\:mb-8{
+    margin-bottom: 2rem;
+  }
+
+  .md\:mb-9{
+    margin-bottom: 2.25rem;
+  }
+
+  .md\:mt-44{
+    margin-top: 11rem;
+  }
+
+  .md\:flex{
+    display: flex;
+  }
+
+  .md\:hidden{
+    display: none;
+  }
+
+  .md\:h-4{
+    height: 1rem;
+  }
+
+  .md\:h-10{
+    height: 2.5rem;
+  }
+
+  .md\:h-8{
+    height: 2rem;
+  }
+
+  .md\:h-6{
+    height: 1.5rem;
+  }
+
+  .md\:h-5{
+    height: 1.25rem;
+  }
+
+  .md\:min-h-6{
+    min-height: 1.5rem;
+  }
+
+  .md\:w-4{
+    width: 1rem;
+  }
+
+  .md\:max-w-\[400px\]{
+    max-width: 400px;
+  }
+
+  .md\:max-w-\[350px\]{
+    max-width: 350px;
+  }
+
+  .md\:max-w-\[375px\]{
+    max-width: 375px;
+  }
+
+  .md\:max-w-\[300px\]{
+    max-width: 300px;
+  }
+
+  .md\:rounded-l-lg{
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+  }
+
+  .md\:py-5{
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+  }
+
+  .md\:text-5xl{
+    font-size: 3rem;
+    line-height: 1;
+  }
+
+  .md\:text-\[24px\]{
+    font-size: 24px;
+  }
+
+  .md\:text-\[50px\]{
+    font-size: 50px;
+  }
+
+  .md\:text-xl{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  .md\:text-\[22px\]{
+    font-size: 22px;
+  }
+
+  .md\:text-\[20px\]{
+    font-size: 20px;
+  }
+
+  .md\:text-\[18px\]{
+    font-size: 18px;
+  }
 }

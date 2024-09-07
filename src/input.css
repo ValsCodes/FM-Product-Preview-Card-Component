@@ -1,21 +1,19 @@
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 body {
     background-color: #F2EAE2;
-}
-
-.parfume-iamge-bg{
-    background-image: url(/images/image-product-desktop.jpg);
-    background-repeat: no-repeat; /* Prevents the image from repeating */
 }
 
 .text-header-1 {
     color: var(--Aurometal-Saurus, #6C7289);
     font-feature-settings: 'liga' off, 'clig' off;
     /* Overline */
-    font-family: Montserrat;
+    font-family: "Montserrat", sans-serif;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -26,16 +24,20 @@ body {
     color: var(--Gunmetal, #1C232B);
     font-feature-settings: 'liga' off, 'clig' off;
     /* Display */
-    font-family: Fraunces;
     font-style: normal;
     font-weight: 700;
+    font-optical-sizing: auto;
+    font-family: "Fraunces", serif;
+    font-variation-settings:
+    "SOFT" 0,
+    "WONK" 0;
 }
 
 .main-text {
     color: var(--Aurometal-Saurus, #6C7289);
     font-feature-settings: 'liga' off, 'clig' off;
     /* Body */
-    font-family: Montserrat;
+    font-family: "Montserrat", sans-serif;
     font-style: normal;
     font-weight: 500;
     /* 164.286% */
@@ -44,26 +46,30 @@ body {
 .price-text {
     color: var(--Deep-Aquamarine, #3D8168);
     font-feature-settings: 'liga' off, 'clig' off;
-    /* Display */
-    font-family: Fraunces;
+    /* Display */ 
     font-style: normal;
     font-weight: 700;
+    font-optical-sizing: auto;
+    font-family: "Fraunces", serif;
+    font-variation-settings:
+    "SOFT" 0,
+    "WONK" 0;
     /* 100% */
 }
 
 .discount-price-text {
     color: var(--Aurometal-Saurus, #6C7289);
-    font-family: Montserrat;
+    font-family: "Montserrat", sans-serif;
     font-style: normal;
     font-weight: 500;
-    text-decoration-line: strikethrough;
+    text-decoration-line:line-through;
 }
 
 .add-to-cart-text {
     color: var(--Pure-White, #FFF);
     font-feature-settings: 'liga' off, 'clig' off;
     /* Button Text */
-    font-family: Montserrat;
+    font-family: "Montserrat", sans-serif;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
