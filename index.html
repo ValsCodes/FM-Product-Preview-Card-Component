@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
-  <link rel="stylesheet" href="../src/output.css">
+  <link rel="stylesheet" href="src/output.css">
   <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;700&display=swap" rel="stylesheet">
 
   <title>Frontend Mentor | Product preview card component</title>
@@ -14,9 +14,9 @@
 
 <body>
 
-  <div class="max-w-[800px] flex-row bg-white my-7 mx-6 rounded-xl md:mx-auto md:mt-44 md:flex">
-      <img class="rounded-t-lg md:hidden" src="../images/image-product-mobile.jpg">
-      <img class=" md:max-w-[400px] hidden md:flex md:rounded-l-lg" src="../images/image-product-desktop.jpg">
+  <div role="main" class="max-w-[800px] flex-row bg-white my-7 mx-6 rounded-xl md:mx-auto md:mt-44 md:flex">
+      <img class="rounded-t-lg md:hidden" src="images/image-product-mobile.jpg" alt="parfume-image">
+      <img class=" md:max-w-[400px] hidden md:flex md:rounded-l-lg" src="images/image-product-desktop.jpg" alt="parfume-image">
       
     <div class="py-6 mx-10">
       <h1 class="text-header-1 mb-4 text-xl uppercase md:text-2x md:my-4 md:mb-8">Perfume</h1>
@@ -32,17 +32,12 @@
 
       <div class="pb-6">
         <button class="w-full cart-button flex items-center justify-center px-4 rounded-xl py-6 md:py-5">
-          <img class="mr-3 md:min-h-6" src="../images/icon-cart.svg"> 
+          <img class="mr-3 md:min-h-6" src="images/icon-cart.svg" alt="cart-image"> 
           <p class="text-l add-to-cart-text md:text-xl">Add to Cart</p>
         </button>
       </div>
     </div>
   </div>
-
-  <!-- <div class="attribution font-bold text-center">
-    <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">Val</a></p>
-  </div> -->
 </body>
 
 </html>
