@@ -1,0 +1,78 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+body {
+    background-color: #F2EAE2;
+}
+
+.parfume-iamge-bg{
+    background-image: url(/images/image-product-desktop.jpg);
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+
+.text-header-1 {
+    color: var(--Aurometal-Saurus, #6C7289);
+    font-feature-settings: 'liga' off, 'clig' off;
+    /* Overline */
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 5px;
+}
+
+.text-header-2 {
+    color: var(--Gunmetal, #1C232B);
+    font-feature-settings: 'liga' off, 'clig' off;
+    /* Display */
+    font-family: Fraunces;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.main-text {
+    color: var(--Aurometal-Saurus, #6C7289);
+    font-feature-settings: 'liga' off, 'clig' off;
+    /* Body */
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    /* 164.286% */
+}
+
+.price-text {
+    color: var(--Deep-Aquamarine, #3D8168);
+    font-feature-settings: 'liga' off, 'clig' off;
+    /* Display */
+    font-family: Fraunces;
+    font-style: normal;
+    font-weight: 700;
+    /* 100% */
+}
+
+.discount-price-text {
+    color: var(--Aurometal-Saurus, #6C7289);
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    text-decoration-line: strikethrough;
+}
+
+.add-to-cart-text {
+    color: var(--Pure-White, #FFF);
+    font-feature-settings: 'liga' off, 'clig' off;
+    /* Button Text */
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.cart-button {
+    background-color: #3D8168;
+}
+
+.cart-button:hover {
+    background-color: #1A4032;
+}
